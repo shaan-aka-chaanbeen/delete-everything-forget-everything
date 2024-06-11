@@ -109,7 +109,10 @@ h2 {
     border: 2px solid yellow;
     padding: 20px;
     height: 150px;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    align-items: center;
+   
+
 }
 
 @keyframes glow {
@@ -119,4 +122,19 @@ h2 {
     100% {
         text-shadow: 0 0 20px yellow;
     }
+}
+.button1{
+   display: flex;
+   text-align: center;
+   align-items: center; 
+   justify-content: center;
+   /* background-color: black; */
+   /* border :1px solid yellow */
+
+}
+.button1 button{
+    background: black;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
 }
